@@ -1,7 +1,3 @@
-import string
-
-letters = string.ascii_letters
-used_letters = ''
 
 def get_letter(question, chosen_letters):
     """
@@ -19,6 +15,11 @@ def get_letter(question, chosen_letters):
     :return:
         Returns one new letter, chosen by the player.
     """
+
+    # grab letters
+    from string import ascii_letters
+    letters = ascii_letters
+
     while True:
         # ask question
         choice = input(question)
@@ -46,4 +47,5 @@ def get_letter(question, chosen_letters):
 
 # tests
 if __name__ == '__main__':
+    used_letters = ''
     print(get_letter("Gimme a letter!\n", 'abcdefghi'))
