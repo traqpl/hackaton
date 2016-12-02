@@ -10,9 +10,8 @@ def zassij_slowo():
     f.close()
     return(lista[randint(0,ile_linii - 1)])
 
-def dashe():
-    a = zassij_slowo()
-    znaki_w_slowie = len(a)
+def dashe(nasze_slowo):
+    znaki_w_slowie = len(nasze_slowo)
     return"_ " * znaki_w_slowie
 
 
