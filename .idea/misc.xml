@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2+ (/usr/bin/python3.5)" project-jdk-type="Python SDK" />
   <component name="masterDetails">
     <states>
@@ -16,4 +17,17 @@
       </state>
     </states>
   </component>
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2 virtualenv at C:\dev\mateusz\python3_tutorial" project-jdk-type="Python SDK" />
+>>>>>>> a13e881fca3f11927bc237ddf6acff471245c5c9
 </project>
