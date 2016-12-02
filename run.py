@@ -30,9 +30,9 @@ if __name__ == '__main__':
             print(guessed_word)
             print("uzyte litery: ", used_letters)
         else:
-            ktory_fuckup = szubienica.hanging_steps()
-            nr_image = str(ktory_fuckup) + str('.jpg')
-            image = Image.open(nr_image)
+            nr_image = str(fuckups_counter) + str('.jpg')
+            img = Image.open(nr_image)
+            img.show()
             print("uzyte litery: ", used_letters)
             fuckups_counter += 1
 
