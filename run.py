@@ -1,3 +1,4 @@
+from PIL import Image
 import instrukcja
 import helpers
 import zlicz_znaki
@@ -30,7 +31,8 @@ if __name__ == '__main__':
             print("uzyte litery: ", used_letters)
         else:
             ktory_fuckup = szubienica.hanging_steps()
-            print(ktory_fuckup[fuckups_counter])
+            nr_image = str(ktory_fuckup) + str('.jpg')
+            image = Image.open(nr_image)
             print("uzyte litery: ", used_letters)
             fuckups_counter += 1
 
