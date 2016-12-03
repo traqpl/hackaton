@@ -1,4 +1,5 @@
 from PIL import Image
+import botek
 import instrukcja
 import helpers
 import zlicz_znaki
@@ -37,9 +38,11 @@ if __name__ == '__main__':
             fuckups_counter += 1
 
         if fuckups_counter == 10:
+            print(botek.bot('loose'))
             print("Przegrales")
             break
 
         if '_' not in guessed_word:
             print("Wygrales")
+            print(botek.bot('winner'))
             break
